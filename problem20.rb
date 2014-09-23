@@ -1,8 +1,8 @@
 require "pry"
 require_relative "lib/numbers"
 
-n = Numbers.new(100)
+n = Numbers.new
 
-puts n.sum_of_digits(n.factorial)
+puts n.factorial_sum_digits(100)
 
 binding.pry
